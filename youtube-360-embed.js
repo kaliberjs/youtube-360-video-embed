@@ -47,7 +47,7 @@ class YouTube360Embed {
 
 function setupYouTube360Embed() {
   var tag = document.createElement('script');
-  tag.id = 'iframe-youtube-player';
+  tag.id = 'iframe-youtube-api-360';
   tag.src = 'https://www.youtube.com/iframe_api';
 
   var firstScriptTag = document.getElementsByTagName('script')[0];
